@@ -1,0 +1,6 @@
+{
+  "enabledMcpjsonServers": ["Google-Drive"],
+  "permissions": {
+    "allow": ["mcp__Google-Drive"]
+  }
+}
