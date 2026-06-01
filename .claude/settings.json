@@ -2,5 +2,8 @@
   "enabledMcpjsonServers": ["Google-Drive"],
   "permissions": {
     "allow": ["mcp__Google-Drive"]
+  },
+  "env": {
+    "FIREFLIES_API_KEY": "dc190cee-c1b0-4a22-a620-1a4c066805ee"
   }
 }
