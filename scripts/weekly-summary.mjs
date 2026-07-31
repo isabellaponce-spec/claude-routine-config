@@ -148,6 +148,7 @@ async function main() {
       lines.push(`• ${fmtTime(e.date)} — *${e.candidate}*${role} · ${e.stage} · :bust_in_silhouette: ${who}`)
     }
   }
+  lines.push('', ':bar_chart: More details in the dashboard: https://product-hiring.internal-tools.y.uno/')
   const text = lines.join('\n')
 
   if (DRY || !WEBHOOK) {
